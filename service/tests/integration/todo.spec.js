@@ -47,7 +47,7 @@ describe("Todo", () => {
     expect(response.body).toEqual(todos);
   });
 
-  it.only("POST /todo should save the todo in the list", async () => {
+  it("POST /todo should save the todo in the list", async () => {
     const todo = { name: "Complete AWS training", complete: false };
     const expectTodo = { ...todo, id: 1 };
     const mockaddTodo = jest.fn().mockReturnValue(expectTodo);
