@@ -70,6 +70,7 @@ describe("Todo", () => {
                     .send(todoRequest)
     expect(response.status).toBe(400);
     console.log(response.error.text)
+    
 
   });
 });

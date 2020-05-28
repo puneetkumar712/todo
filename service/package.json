@@ -19,6 +19,7 @@
     "@babel/core": "^7.9.6",
     "@babel/register": "^7.9.0",
     "@hapi/joi": "^17.1.1",
+    "@types/jest": "^25.2.3",
     "express": "^4.17.1"
   },
   "wallaby": {
